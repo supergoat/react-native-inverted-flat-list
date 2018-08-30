@@ -1,0 +1,42 @@
+{
+  "name": "react-native-inverted-flat-list",
+  "version": "1.0.0",
+  "description": "React native inverted flat list with the ability to use pull to refresh",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supergoat/react-native-inverted-flat-list.git"
+  },
+  "keywords": [
+    "react-native",
+    "inverted",
+    "chat",
+    "flatlist",
+    "flat",
+    "list",
+    "pull",
+    "to",
+    "refresh"
+  ],
+  "author": "Panayiotis Nicolaou (https://github.com/supergoat/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supergoat/react-native-inverted-flat-list/issues"
+  },
+  "homepage": "https://github.com/supergoat/react-native-inverted-flat-list#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-native": "^4.0.0",
+    "react": "^16.4.2",
+    "react-native": "^0.56.0"
+  }
+}
