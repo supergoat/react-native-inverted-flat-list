@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "watch 'yarn build' src",
     "build": "babel src -d build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "babel": {
     "presets": [
@@ -36,9 +37,15 @@
   "homepage": "https://github.com/supergoat/react-native-inverted-flat-list#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-jest": "^23.4.2",
     "babel-preset-react-native": "^4.0.0",
+    "jest": "^23.5.0",
     "react": "^16.4.2",
     "react-native": "^0.56.0",
+    "react-test-renderer": "^16.4.2",
     "watch": "^1.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
