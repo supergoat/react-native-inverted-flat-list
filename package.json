@@ -4,6 +4,7 @@
   "description": "React native inverted flat list with the ability to use pull to refresh",
   "main": "build/index.js",
   "scripts": {
+    "dev": "watch 'yarn build' src",
     "build": "babel src -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -37,6 +38,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-react-native": "^4.0.0",
     "react": "^16.4.2",
-    "react-native": "^0.56.0"
+    "react-native": "^0.56.0",
+    "watch": "^1.0.2"
   }
 }
