@@ -1,6 +1,6 @@
 {
   "name": "react-native-inverted-flat-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React native inverted flat list with the ability to use pull to refresh",
   "main": "build/index.js",
   "scripts": {
