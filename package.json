@@ -1,0 +1,62 @@
+{
+  "name": "react-native-inverted-flat-list",
+  "version": "1.0.0",
+  "description": "React native inverted flat list with the ability to use pull to refresh",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'yarn build' src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublish": "yarn build",
+    "release": "np"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supergoat/react-native-inverted-flat-list.git"
+  },
+  "keywords": [
+    "react-native",
+    "inverted",
+    "chat",
+    "flatlist",
+    "flat",
+    "list",
+    "pull",
+    "to",
+    "refresh"
+  ],
+  "author": "Panayiotis Nicolaou (https://github.com/supergoat/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supergoat/react-native-inverted-flat-list/issues"
+  },
+  "homepage": "https://github.com/supergoat/react-native-inverted-flat-list#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.4.2",
+    "babel-preset-react-native": "^4.0.0",
+    "enzyme": "^3.5.0",
+    "enzyme-adapter-react-16": "^1.3.0",
+    "jest": "^23.5.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-native": "^0.56.0",
+    "react-test-renderer": "^16.4.2",
+    "watch": "^1.0.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFiles": [
+      "<rootDir>/setupTests.js"
+    ]
+  },
+  "dependencies": {
+    "np": "^3.0.4"
+  }
+}
