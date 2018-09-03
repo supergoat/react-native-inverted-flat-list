@@ -71,17 +71,20 @@ class InfiniteScrollingList extends Component {
   }
 
   render() {
-    <InvertedFlatList
-      refreshing={refreshing} // required
-      data={data} // required
-      keyExtractor={item => item.id} // required
-      onPullToRefresh={this.onPullToRefresh}
-      renderItem={({ item }) => ( // required
-        <View>
-          <Text>{item.text}</Text>
-        </View>
-      )}
-    />
+    const { messages, refreshing } = this.state;
+    return (
+      <InvertedFlatList
+        refreshing={refreshing} // required
+        data={messages} // required
+        keyExtractor={item => item.id} // required
+        onPullToRefresh={this.onPullToRefresh}
+        renderItem={({ item }) => ( // required
+          <View>
+            <Text>{item.text}</Text>
+          </View>
+        )}
+      />
+    )
   }
 }
 
